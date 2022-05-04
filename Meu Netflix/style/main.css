@@ -51,7 +51,7 @@ header nav a{
 /*produção principal*/
 .producao-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url("/img/Ozark-Season-.webp");
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url("https://observatoriodocinema.uol.com.br/wp-content/uploads/2020/12/ozark-1200x719.jpg");
     height: 600px;
     background-size: cover;
     display: flex;
@@ -114,4 +114,6 @@ header nav a{
     height: 150px;
     width: 100px;
     display: block;
+    cursor: pointer;
+    transition: .3s ease-in-out;
 }
