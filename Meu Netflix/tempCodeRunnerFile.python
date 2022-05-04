@@ -1,0 +1,15 @@
+from tarfile import SUPPORTED_TYPES
+
+
+import operator
+list = [['rachel', -50], ['mawer', -50], ['sheen', -50], ['shaheen', 51], ['lenio', 52]]
+list.sort(key=operator.itemgetter(1))
+lista = []
+for i in list:
+    if i[1] > list[0][1]:
+        lista.append(i)
+        lista.sort(key=operator.itemgetter(1))
+nomes = []
+for j in lista:
+    if j[1] == lista[0][1]:
+        print(j[0])
